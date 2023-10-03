@@ -32,7 +32,7 @@ type ApiResponse =
       isError: false;
     }
   | {
-      // fullfiled
+      // fulfilled
       data: User[];
       isLoading: false;
       isError: false;
