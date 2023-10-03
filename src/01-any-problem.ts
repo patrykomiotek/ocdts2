@@ -1,6 +1,14 @@
 import { expect, it } from "vitest";
 
-export const addTwoNumbers = (a, b) => {
+// TS: number | JS: Number
+// string
+// boolean
+// any
+// undefined
+// never
+// void
+
+export const addTwoNumbers = (a: number, b: number) => {
   return a + b;
 };
 
