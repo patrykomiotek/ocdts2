@@ -5,7 +5,7 @@ import { Equal, Expect } from "./helpers/type-utils";
 // create User interface/type which can take generic role
 type Role = "admin" | "user";
 
-interface User<T extends Role> {
+export interface User<T extends Role> {
   id: number;
   first: string;
   role: T;
